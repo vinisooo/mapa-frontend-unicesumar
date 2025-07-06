@@ -53,7 +53,7 @@ async function renderProducts(category) {
 // Estabelece categorias com base nos itens
 async function setCategories() {
   // Importa dados mockados no JSON
-  const response = await fetch("/assets/data.json");
+  const response = await fetch("../../assets/data.json");
   const products = await response.json();
 
   // utiliza set para buscar lista de categorias sem duplicacao
