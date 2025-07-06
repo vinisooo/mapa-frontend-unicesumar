@@ -29,7 +29,7 @@ async function renderProducts(category) {
         <p>${item.description}</p>
         <div>
           <span>R$${item.price.toFixed(2)}</span>
-          <a href="/pages/item/item.html?id=${
+          <a href="../item/item.html?id=${
             item.id
           }" class="btn white">Ver Item</a>
         </div>
