@@ -1,7 +1,3 @@
-const items = getItems();
-renderItems(items);
-getTotalValue(items);
-
 function renderItems(items) {
   const itemList = document.getElementById("item-list");
   itemList.innerHTML = "";
@@ -62,3 +58,7 @@ function removeItem(itemId) {
   cart.splice(index, 1); // remove apenas 1 item
   localStorage.setItem("cart", JSON.stringify(cart));
 }
+
+const items = getItems();
+renderItems(items);
+getTotalValue(items);

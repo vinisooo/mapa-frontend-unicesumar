@@ -1,6 +1,3 @@
-renderProducts("Todos");
-setCategories();
-
 // Funcao responsavel pela exibicao dos itens
 async function renderProducts(category) {
   // Importa dados mockados no JSON
@@ -94,3 +91,6 @@ function setCurrentFilter(category) {
 
   categoryButton.classList.add("selected");
 }
+
+renderProducts("Todos");
+setCategories();

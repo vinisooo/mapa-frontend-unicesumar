@@ -1,5 +1,24 @@
-const item = await getItem();
-renderItem(item);
+// Adiciona item no carrinho
+function addItemToCart(item) {
+  const cart = localStorage.getItem("cart");
+
+  if (!cart) {
+    localStorage.setItem("cart", JSON.stringify([item]));
+    return;
+  }
+
+  const parsedCart = JSON.parse(cart);
+  parsedCart.push(item);
+
+  localStorage.setItem("cart", JSON.stringify(parsedCart));
+
+  // Mostra mensagem de sucesso na tela
+  const cartFeedback = document.querySelector(".cart-feedback");
+  cartFeedback.classList.add("show");
+  setTimeout(() => {
+    cartFeedback.classList.remove("show");
+  }, 3000);
+}
 
 // Renderiza na tela item selecionado
 function renderItem(item) {
@@ -48,24 +67,5 @@ async function getItem() {
   return data.find((item) => item.id === itemId);
 }
 
-// Adiciona item no carrinho
-function addItemToCart(item) {
-  const cart = localStorage.getItem("cart");
-
-  if (!cart) {
-    localStorage.setItem("cart", JSON.stringify([item]));
-    return;
-  }
-
-  const parsedCart = JSON.parse(cart);
-  parsedCart.push(item);
-
-  localStorage.setItem("cart", JSON.stringify(parsedCart));
-
-  // Mostra mensagem de sucesso na tela
-  const cartFeedback = document.querySelector(".cart-feedback");
-  cartFeedback.classList.add("show");
-  setTimeout(() => {
-    cartFeedback.classList.remove("show");
-  }, 3000);
-}
+const item = await getItem();
+renderItem(item);

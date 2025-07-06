@@ -1,5 +1,3 @@
-renderEmphasisItems();
-
 // Busca os itens em destaque
 async function getEmphasisItem() {
   const response = await fetch("./assets/data.json");
@@ -52,3 +50,5 @@ if (form) {
     }
   });
 }
+
+renderEmphasisItems();
