@@ -1,21 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MAPA Store - Itens</title>
-  <link rel="stylesheet" href="/pages/store/store.css">
-  <link rel="stylesheet" href="/pages/item/item.css">
-  <script src="/pages/item/item.js" type="module" defer></script>
+  <link rel="stylesheet" href="../store/store.css">
+  <link rel="stylesheet" href="item.css">
+  <script src="item.js" type="module" defer></script>
+
+  <!-- Meta Tags para SEO -->
+  <meta name="description"
+    content="A MAPA Store oferece produtos naturais e sustentáveis para o bem-estar da sua casa. Conheça nossa loja online!" />
+  <meta name="keywords" content="produtos naturais, sustentabilidade, bem-estar, loja online, MAPA Store" />
+  <meta name="author" content="MAPA Store" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="../../assets/logo.png" type="image/png" />
 </head>
+
 <body>
   <div class="container">
     <nav class="container nav-bar">
       <a href="/index.html">
-        <img class="logo" src="/assets/logo.png" alt="MAPA Store logo">
+        <img class="logo" src="../../assets/logo.png" alt="MAPA Store logo">
       </a>
       <div>
-        <a href="/pages/cart/cart.html" class="link cart">Carrinho</a>
+        <a href="../cart/cart.html" class="link cart">Carrinho</a>
       </div>
     </nav>
   </div>
@@ -27,7 +38,7 @@
   <main class="item">
     <div class="container">
       <!-- Botao de retornar para lista de itens -->
-      <a href="/pages/store/store.html" class="go-back-btn">Voltar</a>
+      <a href="../store/store.html" class="go-back-btn">Voltar</a>
       <div class="item-container">
         <!-- Imagem do item -->
         <figure class="card card-img">
@@ -44,7 +55,7 @@
           <h3>Veja a opiniao de quem ja comprou</h3>
           <!-- Opinioes do item -->
           <ul id="reviews">
-  
+
           </ul>
         </div>
       </div>
@@ -59,4 +70,5 @@
   </div>
 
 </body>
+
 </html>
