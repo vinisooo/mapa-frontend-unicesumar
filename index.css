@@ -7,18 +7,18 @@
 }
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   position: relative;
   background-color: var(--anti-flash-white);
   color: var(--raisin-black);
 }
 
 :root {
-  --bittersweet: #F05D5E;
-  --caribbean-current: #0F7173;
-  --anti-flash-white: #E7ECEF;
+  --bittersweet: #f05d5e;
+  --caribbean-current: #0f7173;
+  --anti-flash-white: #e7ecef;
   --raisin-black: #272932;
-  --buff: #D8A47F;
+  --buff: #d8a47f;
 }
 
 /* Botões */
@@ -36,7 +36,7 @@ body {
 .btn.white {
   background-color: var(--anti-flash-white);
   color: var(--raisin-black);
-  
+
   &:hover {
     background-color: var(--caribbean-current);
     color: var(--anti-flash-white);
@@ -50,7 +50,6 @@ body {
     background-color: var(--buff);
   }
 }
-
 
 /* Container */
 .container {
@@ -85,7 +84,7 @@ body {
 .link {
   text-decoration: none;
   color: var(--caribbean-current);
-  
+
   &:hover {
     color: var(--bittersweet);
   }
@@ -95,13 +94,12 @@ body {
     padding: 0.5rem;
     border-radius: 8px;
     color: var(--anti-flash-white);
-    
+
     &:hover {
       background-color: var(--caribbean-current);
     }
   }
 }
-
 
 /* Header */
 .header {
@@ -156,7 +154,7 @@ section {
   background-color: white;
   border-radius: 12px;
   padding: 1rem;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s ease;
 
   max-width: 400px;
@@ -176,7 +174,7 @@ section {
   }
 
   p {
-    color: rgba(0,0,0,0.5);
+    color: rgba(0, 0, 0, 0.5);
     margin: 1rem 0;
   }
 
@@ -192,27 +190,25 @@ section {
       color: var(--caribbean-current);
       font-weight: 600;
     }
-  
+
     button {
       margin-top: 1rem;
     }
   }
 }
 
-
-
 /* Sobre */
 .about {
   background-color: var(--buff);
   color: var(--raisin-black);
   text-align: left;
-  
+
   h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
     color: var(--anti-flash-white);
   }
-  
+
   p {
     max-width: 700px;
     font-size: 1.1rem;
@@ -220,19 +216,19 @@ section {
     color: var(--anti-flash-white);
   }
 }
-/* Contato */
-.contato {
+/* contato */
+.contact {
   background-color: var(--raisin-black);
   color: var(--anti-flash-white);
 }
 
-.contato h2 {
+.contact h2 {
   text-align: left;
   margin-bottom: 2rem;
   font-size: 2rem;
 }
 
-.form-contato {
+.form-contact {
   max-width: 600px;
   margin: 0 auto;
   display: flex;
@@ -240,8 +236,8 @@ section {
   gap: 1rem;
 }
 
-.form-contato input,
-.form-contato textarea {
+.form-contact input,
+.form-contact textarea {
   padding: 0.75rem 1rem;
   border: 1px solid var(--caribbean-current);
   border-radius: 8px;
@@ -250,12 +246,12 @@ section {
   font-size: 1rem;
 }
 
-.form-contato input:focus,
-.form-contato textarea:focus {
+.form-contact input:focus,
+.form-contact textarea:focus {
   outline: 2px solid var(--bittersweet);
 }
 
-.form-contato textarea {
+.form-contact textarea {
   min-height: 120px;
   resize: vertical;
 }

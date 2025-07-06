@@ -21,7 +21,7 @@
 <body>
   <div class="container">
     <nav class="nav-bar">
-      <img class="logo" src="/assets/logo.png" alt="MAPA Store logo">
+      <img class="logo" src="assets/logo.png" alt="MAPA Store logo">
       <div>
         <a href="pages/store/store.html" class="link">Acessar Loja</a>
       </div>
@@ -58,17 +58,19 @@
   </section>
 
   <!-- CONTATO -->
-  <section class="contato">
+  <section class="contact">
     <div class="container">
       <h2>Fale Conosco</h2>
-      <form class="form-contato">
-        <input type="text" placeholder="Seu nome" required />
-        <input type="email" placeholder="Seu e-mail" required />
-        <textarea placeholder="Sua mensagem" required></textarea>
+      <form class="form-contact" id="form-contact">
+        <input type="text" id="nome" placeholder="Seu nome" />
+        <input type="email" id="email" placeholder="Seu e-mail" />
+        <textarea id="mensagem" placeholder="Sua mensagem"></textarea>
         <button type="submit" class="btn white">Enviar</button>
       </form>
+      <p id="erro-msg" style="color: red; display: none;"></p>
     </div>
   </section>
+
 </body>
 
 </html>
