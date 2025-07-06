@@ -2,7 +2,7 @@ renderEmphasisItems();
 
 // Busca os itens em destaque
 async function getEmphasisItem() {
-  const response = await fetch("/assets/data.json");
+  const response = await fetch("./assets/data.json");
   const data = await response.json();
 
   const emphasis = data.filter((product) => product.emphasis);
