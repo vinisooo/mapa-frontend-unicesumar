@@ -1,0 +1,14 @@
+@import "/index.css";
+
+.items-grid {
+  margin-top: 1.5rem;
+}
+
+.items {
+  transform: translateY(-150px);
+}
+
+.selected {
+  background-color: var(--caribbean-current) !important;
+  color: var(--anti-flash-white) !important;
+}

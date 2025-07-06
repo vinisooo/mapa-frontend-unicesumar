@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MAPA Store - Itens</title>
+  <link rel="stylesheet" href="/pages/store/store.css">
+  <link rel="stylesheet" href="/pages/cart/cart.css">
+  <script src="/pages/cart/cart.js" type="module" defer></script>
+</head>
+<body>
+  <div class="container">
+    <nav class="container nav-bar">
+      <a href="/index.html">
+        <img class="logo" src="/assets/logo.png" alt="MAPA Store logo">
+      </a>
+      <div>
+        <a href="/pages/cart/cart.html" class="link cart">Carrinho</a>
+      </div>
+    </nav>
+  </div>
+
+  <header class="header">
+    <div class="container header-content">
+      <h1>Carrinho</h1>
+      <p><b>Valor total:</b> R$ <span id="total">0</span></p>
+    </div>  
+  </header>
+
+  <!-- Conteudo principal -->
+  <main class="items">
+    <div class="container">
+      <a href="/pages/store/store.html" class="go-back-btn">Voltar</a>
+      <ul id="item-list" class="items-grid">
+        <!-- Itens serao renderizados aqui -->
+      </ul>
+    </div>
+  </main>
+</body>
+</html>

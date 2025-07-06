@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MAPA Store - Itens</title>
+  <link rel="stylesheet" href="/pages/store/store.css">
+  <link rel="stylesheet" href="/pages/item/item.css">
+  <script src="/pages/item/item.js" type="module" defer></script>
+</head>
+<body>
+  <div class="container">
+    <nav class="container nav-bar">
+      <a href="/index.html">
+        <img class="logo" src="/assets/logo.png" alt="MAPA Store logo">
+      </a>
+      <div>
+        <a href="/pages/cart/cart.html" class="link cart">Carrinho</a>
+      </div>
+    </nav>
+  </div>
+
+  <header class="header">
+  </header>
+
+  <!-- Conteudo do item selecionado -->
+  <main class="item">
+    <div class="container">
+      <!-- Botao de retornar para lista de itens -->
+      <a href="/pages/store/store.html" class="go-back-btn">Voltar</a>
+      <div class="item-container">
+        <!-- Imagem do item -->
+        <figure class="card card-img">
+          <img id="item-img" src="" alt="">
+        </figure>
+        <!-- Informacoes do item -->
+        <div class="card-col">
+          <div class="card item-info">
+            <h1 id="item-title">Carregando...</h1>
+            <p id="item-description">Carregando...</p>
+            <span id="item-price">Carregando...</span>
+            <button id="item-add-to-cart" class="btn pink">Adicionar ao carrinho</button>
+          </div>
+          <h3>Veja a opiniao de quem ja comprou</h3>
+          <!-- Opinioes do item -->
+          <ul id="reviews">
+  
+          </ul>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Mensagem de feedback para quando item for adicionado ao carrinho -->
+  <div class="container">
+    <div class="card cart-feedback">
+      Item adicionado ao carrinho!
+    </div>
+  </div>
+
+</body>
+</html>

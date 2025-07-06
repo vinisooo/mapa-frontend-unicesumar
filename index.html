@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MAPA Store</title>
+  <link rel="stylesheet" href="./index.css">
+  <script src="./index.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <nav class="nav-bar">
+      <img class="logo" src="/assets/logo.png" alt="MAPA Store logo">
+      <div>
+        <a href="/pages/store/store.html" class="link">Acessar Loja</a>
+      </div>
+    </nav>
+  </div>
+
+  <header class="header">
+    <div class="container header-content">
+      <h1>MAPA Store</h1>
+      <p>Encontre os melhores produtos para sua casa</p>
+      <a href="./pages/store/store.html" class="btn white">Ver Produtos</a>
+    </div>  
+  </header>
+
+  <!-- PRODUTOS EM DESTAQUE -->
+  <section class="produtos">
+    <div class="container">
+      <h2>Produtos em Destaque</h2>
+      <ul id="emphasis-items" class="items-grid">
+        <!-- Os itens serao renderizados aqui -->
+      </ul>
+    </div>
+  </section>
+
+  <!-- SOBRE NÓS -->
+  <section class="about">
+    <div class="container">
+      <h2>Sobre Nós</h2>
+      <p>
+        A MAPA Store é uma loja fictícia dedicada a oferecer produtos naturais de qualidade.
+        Nosso objetivo é promover bem-estar e sustentabilidade em cada item oferecido.
+      </p>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section class="contato">
+    <div class="container">
+      <h2>Fale Conosco</h2>
+      <form class="form-contato">
+        <input type="text" placeholder="Seu nome" required />
+        <input type="email" placeholder="Seu e-mail" required />
+        <textarea placeholder="Sua mensagem" required></textarea>
+        <button type="submit" class="btn white">Enviar</button>
+      </form>
+    </div>
+  </section>
+</body>
+</html>

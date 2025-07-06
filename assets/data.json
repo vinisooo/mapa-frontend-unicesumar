@@ -1,0 +1,236 @@
+[
+  {
+    "id": 1,
+    "name": "Máscara de Cílios Essence Lash Princess",
+    "description": "Máscara para cílios com efeito de volume e alongamento, fórmula de longa duração e livre de crueldade.",
+    "price": 9.99,
+    "image": "https://cdn.dummyjson.com/product-images/beauty/essence-mascara-lash-princess/1.webp",
+    "featured": true,
+    "category": "Beleza",
+    "reviews": [
+      { "user": "Eleanor Collins", "rating": 3, "comment": "Não recomendaria!" },
+      { "user": "Lucas Gordon", "rating": 4, "comment": "Muito satisfeito!" },
+      { "user": "Eleanor Collins", "rating": 5, "comment": "Altamente impressionada!" }
+    ],
+    "emphasis": true
+  },
+  {
+    "id": 2,
+    "name": "Paleta de Sombras com Espelho",
+    "description": "Paleta versátil com tons variados e espelho embutido para aplicação prática.",
+    "price": 19.99,
+    "image": "https://cdn.dummyjson.com/product-images/beauty/eyeshadow-palette-with-mirror/1.webp",
+    "featured": false,
+    "category": "Beleza",
+    "reviews": [
+      { "user": "Savannah Gomez", "rating": 5, "comment": "Produto excelente!" },
+      { "user": "Christian Perez", "rating": 4, "comment": "Produto incrível!" },
+      { "user": "Nicholas Bailey", "rating": 1, "comment": "Qualidade ruim!" }
+    ],
+    "emphasis": true
+  },
+  {
+    "id": 3,
+    "name": "Pó Facial Compacto",
+    "description": "Pó facial ultrafino com acabamento matte, ideal para fixar a maquiagem e controlar o brilho.",
+    "price": 14.99,
+    "image": "https://cdn.dummyjson.com/product-images/beauty/powder-canister/1.webp",
+    "featured": false,
+    "category": "Beleza",
+    "reviews": [
+      { "user": "Alexander Jones", "rating": 4, "comment": "Compraria novamente!" },
+      { "user": "Elijah Cruz", "rating": 5, "comment": "Altamente impressionado!" },
+      { "user": "Avery Perez", "rating": 1, "comment": "Muito insatisfeito!" }
+    ],
+    "emphasis": true
+  },
+  {
+    "id": 18,
+    "name": "Ração para Gatos",
+    "description": "Ração nutritiva formulada para atender às necessidades dietéticas do seu amigo felino.",
+    "price": 8.99,
+    "image": "https://cdn.dummyjson.com/product-images/groceries/cat-food/1.webp",
+    "featured": false,
+    "category": "Mercearia",
+    "reviews": [
+      { "user": "Noah Lewis", "rating": 3, "comment": "Não recomendaria!" },
+      { "user": "Ruby Andrews", "rating": 3, "comment": "Muito insatisfeita com a compra!" },
+      { "user": "Ethan Thompson", "rating": 2, "comment": "Muito decepcionado!" }
+    ],
+    "emphasis": false
+  },
+  {
+    "id": 19,
+    "name": "Carne de Frango",
+    "description": "Carne fresca e macia de frango, adequada para diversas preparações culinárias.",
+    "price": 9.99,
+    "image": "https://cdn.dummyjson.com/product-images/groceries/chicken-meat/1.webp",
+    "featured": false,
+    "category": "Mercearia",
+    "reviews": [
+      { "user": "Mateo Bennett", "rating": 5, "comment": "Ótimo produto!" },
+      { "user": "Jackson Evans", "rating": 4, "comment": "Altamente recomendado!" },
+      { "user": "Sadie Morales", "rating": 3, "comment": "Não vale o preço!" }
+    ],
+    "emphasis": false
+  },
+  {
+    "id": 20,
+    "name": "Óleo de Cozinha",
+    "description": "Óleo versátil para frituras, refogados e várias aplicações culinárias.",
+    "price": 4.99,
+    "image": "https://cdn.dummyjson.com/product-images/groceries/cooking-oil/1.webp",
+    "featured": false,
+    "category": "Mercearia",
+    "reviews": [
+      { "user": "Victoria McDonald", "rating": 5, "comment": "Muito feliz com a compra!" },
+      { "user": "Hazel Evans", "rating": 2, "comment": "Não recomendaria!" },
+      { "user": "Zoe Bennett", "rating": 5, "comment": "Compraria novamente!" }
+    ],
+    "emphasis": false
+  },
+  {
+    "id": 21,
+    "name": "Pepino",
+    "description": "Pepinos crocantes e hidratantes, ideais para saladas, lanches ou como acompanhamento refrescante.",
+    "price": 1.49,
+    "image": "https://cdn.dummyjson.com/product-images/groceries/cucumber/1.webp",
+    "featured": false,
+    "category": "Mercearia",
+    "reviews": [
+      { "user": "Lincoln Kelly", "rating": 4, "comment": "Ótimo produto!" },
+      { "user": "Savannah Gomez", "rating": 4, "comment": "Ótimo custo-benefício!" },
+      { "user": "James Davis", "rating": 2, "comment": "Qualidade ruim!" }
+    ],
+    "emphasis": false
+  },
+  {
+    "id": 22,
+    "name": "Ração para Cães",
+    "description": "Ração especialmente formulada para fornecer nutrientes essenciais ao seu companheiro canino.",
+    "price": 10.99,
+    "image": "https://cdn.dummyjson.com/product-images/groceries/dog-food/1.webp",
+    "featured": false,
+    "category": "Mercearia",
+    "reviews": [
+      { "user": "Nicholas Edwards", "rating": 5, "comment": "Qualidade excelente!" },
+      { "user": "Zachary Lee", "rating": 5, "comment": "Produto incrível!" },
+      { "user": "Nova Cooper", "rating": 4, "comment": "Ótimo produto!" }
+    ],
+    "emphasis": false
+  },
+  {
+    "id": 23,
+    "name": "Ovos",
+    "description": "Ovos frescos, um ingrediente versátil para confeitaria, cozinha ou café da manhã.",
+    "price": 2.99,
+    "image": "https://cdn.dummyjson.com/product-images/groceries/eggs/1.webp",
+    "featured": false,
+    "category": "Mercearia",
+    "reviews": [
+      { "user": "Penelope King", "rating": 3, "comment": "Produto decepcionante!" },
+      { "user": "Eleanor Tyler", "rating": 3, "comment": "Qualidade ruim!" },
+      { "user": "Benjamin Foster", "rating": 4, "comment": "Muito satisfeito!" }
+    ],
+    "emphasis": false
+  },
+  {
+    "id": 24,
+    "name": "Filé de Peixe",
+    "description": "Filé de peixe de qualidade, adequado para grelhar, assar ou fritar na frigideira.",
+    "price": 14.99,
+    "image": "https://cdn.dummyjson.com/product-images/groceries/fish-steak/1.webp",
+    "featured": false,
+    "category": "Mercearia",
+    "reviews": [
+      { "user": "Caleb Perkins", "rating": 2, "comment": "Não compraria novamente!" },
+      { "user": "Isabella Jackson", "rating": 5, "comment": "Qualidade excelente!" },
+      { "user": "Nathan Dixon", "rating": 4, "comment": "Ótimo custo-benefício!" }
+    ],
+    "emphasis": false
+  },
+  {
+    "id": 25,
+    "name": "Pimentão Verde",
+    "description": "Pimentão verde fresco e vibrante, perfeito para adicionar cor e sabor aos seus pratos.",
+    "price": 1.29,
+    "image": "https://cdn.dummyjson.com/product-images/groceries/green-bell-pepper/1.webp",
+    "featured": false,
+    "category": "Mercearia",
+    "reviews": [
+      { "user": "Avery Carter", "rating": 4, "comment": "Altamente recomendado!" },
+      { "user": "Henry Hill", "rating": 3, "comment": "Não recomendaria!" },
+      { "user": "Addison Wright", "rating": 5, "comment": "Qualidade excelente!" }
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Pimenta Verde",
+    "description": "Pimenta verde picante, ideal para dar um toque apimentado às suas receitas favoritas.",
+    "price": 0.99,
+    "image": "https://cdn.dummyjson.com/product-images/groceries/green-chili-pepper/1.webp",
+    "featured": false,
+    "category": "Mercearia",
+    "reviews": [
+      { "user": "Luna Russell", "rating": 4, "comment": "Ótimo produto!" },
+      { "user": "Noah Lewis", "rating": 1, "comment": "Dinheiro jogado fora!" },
+      { "user": "Clara Berry", "rating": 3, "comment": "Muito decepcionada!" }
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Pote de Mel",
+    "description": "Mel puro e natural em pote prático, perfeito para adoçar bebidas ou para usar em comidas.",
+    "price": 6.99,
+    "image": "https://cdn.dummyjson.com/product-images/groceries/honey-jar/1.webp",
+    "featured": false,
+    "category": "Mercearia",
+    "reviews": [
+      { "user": "Autumn Gomez", "rating": 1, "comment": "Muito decepcionada!" },
+      { "user": "Benjamin Wilson", "rating": 4, "comment": "Muito impressionado!" },
+      { "user": "Nicholas Edwards", "rating": 2, "comment": "Muito decepcionado!" }
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Sorvete",
+    "description": "Sorvete cremoso e delicioso, disponível em vários sabores para um doce prazer.",
+    "price": 5.49,
+    "image": "https://cdn.dummyjson.com/product-images/groceries/ice-cream/1.webp",
+    "featured": false,
+    "category": "Mercearia",
+    "reviews": [
+      { "user": "Elijah Cruz", "rating": 5, "comment": "Muito satisfeito!" },
+      { "user": "Jace Smith", "rating": 4, "comment": "Qualidade excelente!" },
+      { "user": "Sadie Morales", "rating": 5, "comment": "Muito impressionado!" }
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Suco",
+    "description": "Suco refrescante de frutas, cheio de vitaminas e ótimo para manter a hidratação.",
+    "price": 3.99,
+    "image": "https://cdn.dummyjson.com/product-images/groceries/juice/1.webp",
+    "featured": false,
+    "category": "Mercearia",
+    "reviews": [
+      { "user": "Nolan Gonzalez", "rating": 5, "comment": "Qualidade excelente!" },
+      { "user": "Bella Grant", "rating": 4, "comment": "Compraria novamente!" },
+      { "user": "Aria Flores", "rating": 5, "comment": "Produto incrível!" }
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Kiwi",
+    "description": "Kiwi rico em nutrientes, perfeito para um lanche ou para dar um toque tropical aos seus pratos.",
+    "price": 2.49,
+    "image": "https://cdn.dummyjson.com/product-images/groceries/kiwi/1.webp",
+    "featured": false,
+    "category": "Mercearia",
+    "reviews": [
+      { "user": "Emily Brown", "rating": 4, "comment": "Altamente recomendado!" },
+      { "user": "Jackson Morales", "rating": 2, "comment": "Não compraria novamente!" },
+      { "user": "Nora Russell", "rating": 4, "comment": "Entrega rápida!" }
+    ]
+  }
+]
